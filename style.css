@@ -1,0 +1,29 @@
+.logo{
+    height: 56px;
+    width: 182px;
+    background: url(./assets/Asset\ 1_1\ 1.png) no-repeat;
+    position:absolute;
+    top: 10px;
+    left: 100px;
+}
+.f-box{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+.n-f{
+    flex-direction: row-reverse;
+    align-content: center;
+}
+a{
+    color: black;
+}
+.bg{
+    background: url(./assets/Back\ drop\ 1.png) no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 99vh;
+}
+#error{
+    color: red;
+}
